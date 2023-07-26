@@ -21,6 +21,8 @@ body {
   /* background: #17183b; */
   color: #17183b;
   background: #ede5d5;
+
+  border: 5px solid #381008;
 }
 
 #title {
@@ -35,8 +37,32 @@ body {
   align-items: center;
   flex-basis: 75px;
 
-  background: #004385;
+  background: #17183b;
   color: #f9f7f0;
+}
+
+.main-section {
+  background: #a44a3f;
+  color: #f9f7f0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.section-text {
+  margin: 10px;
+  padding-top: 40px;
+  max-width: 500px;
+}
+
+.section-heading {
+  color: #ede5d5;
+}
+
+#portrait-img {
+  width: 400;
+  height: 400;
+  margin: 10px;
 }
 
 .debug-outline {
