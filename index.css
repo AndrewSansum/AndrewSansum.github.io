@@ -41,6 +41,10 @@ body {
   color: #f9f7f0;
 }
 
+.contact-link {
+  color: inherit;
+}
+
 .main-section {
   background: #a44a3f;
   color: #f9f7f0;
