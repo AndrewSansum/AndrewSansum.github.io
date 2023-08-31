@@ -12,7 +12,7 @@ body {
 
 #hero {
   display: block;
-  flex-grow: 1;
+  flex-basis: 90vh;
 
   /* background: linear-gradient(#a44a3f, #17183b); */
   /* background: #17183b; */
@@ -23,11 +23,12 @@ body {
   /* border-width: 0 0 5px 0;
   border-style: solid;
   border-color: #381008; */
-  padding-top: 15%;
-  padding-bottom: 25%;
+  /* padding-top: 15%;
+  padding-bottom: 20%; */
 }
 
 #hero-text {
+  margin-top: 30vh;
   text-align: center;
 }
 
@@ -40,6 +41,30 @@ body {
 #subtitle {
   font-size: max(3vh, 20px);
   font-family: Poppins, sans-serif;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-basis: 10vh;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #17183b;
+  color: #f9f7f0;
+  flex-grow: 1;
+  height: 100%;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background: #292a4d;
 }
 
 #contact-bar {
