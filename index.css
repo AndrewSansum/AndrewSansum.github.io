@@ -1,20 +1,17 @@
 html {
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: inherit;
-
+  flex-wrap: wrap;
   font-family: Poppins, sans-serif;
 }
 
 #hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: block;
   flex-grow: 1;
 
   /* background: linear-gradient(#a44a3f, #17183b); */
@@ -23,12 +20,25 @@ body {
   background: #ede5d5;
 
   border: 5px solid #381008;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#hero-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #title {
-  font-size: 50px;
+  font-size: max(6vh, 40px);
   font-family: Chakra Petch, sans-serif;
   color: #a44a3f;
+}
+
+#subtitle {
+  font-size: max(3vh, 20px);
+  font-family: Poppins, sans-serif;
 }
 
 #contact-bar {
