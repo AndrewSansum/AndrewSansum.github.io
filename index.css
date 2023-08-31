@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
-  flex-basis: 10vh;
+  flex-basis: max(10vh, 60px);
 }
 
 .nav-button {
@@ -87,11 +87,11 @@ body {
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .section-text {
-  margin: 10px;
-  padding-top: 40px;
+  margin: max(40px, 3vw);
   max-width: 500px;
 }
 
