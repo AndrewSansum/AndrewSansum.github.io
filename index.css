@@ -105,6 +105,10 @@ body {
   font-size: 16px;
 }
 
+.section-heading {
+  color: #a44a3f;
+}
+
 .button-bar {
   display: flex;
   justify-content: space-around;
@@ -135,10 +139,6 @@ body {
 .contact-button:hover {
   background: #352820;
   color: #f9f7f0;
-}
-
-.section-heading {
-  color: #a44a3f;
 }
 
 #portrait-img {
