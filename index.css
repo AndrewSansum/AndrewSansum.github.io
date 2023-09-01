@@ -70,28 +70,6 @@ body {
   background: #292a4d;
 }
 
-#contact-bar {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-basis: 75px;
-
-  width: 100%;
-
-  background: #17183b;
-  color: #f9f7f0;
-}
-
-.contact-link {
-  color: inherit;
-  background: #d09e7d;
-  padding: 5%;
-}
-
-.contact-link:hover {
-  background: #83634f;
-}
-
 .main-section {
   background: #ede5d5;
   color: #17183b;
