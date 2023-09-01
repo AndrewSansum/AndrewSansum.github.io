@@ -136,6 +136,7 @@ body {
   width: 400;
   height: 400;
   margin: 10px;
+  box-shadow: 5px 5px #83634f;
 }
 
 .debug-outline {
