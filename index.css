@@ -139,6 +139,21 @@ body {
   box-shadow: 5px 5px #83634f;
 }
 
+#footer {
+  display: flex;
+  width: 100%;
+  flex-basis: 7vh;
+  justify-content: center;
+  align-items: center;
+
+  background: #17183b;
+  color: #f9f7f0;
+}
+#footer a {
+  color: #f9f7f0;
+  text-align: center;
+}
+
 .debug-outline {
   border: 1px dotted blue;
 }
